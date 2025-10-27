@@ -18,7 +18,6 @@
 
 | Название         | Ссылка |
 |------------------|--------|
-| Milk Farm        | [Посмотреть](https://dimayu2882.github.io/playables/milk-farm/index.html) |
-| Unblock It       | [Посмотреть](https://dimayu2882.github.io/playables/unblockIt/index.html) |
-
+| Milk Farm        | <a href="https://dimayu2882.github.io/playables/milk-farm/index.html" target="_blank">Посмотреть</a> |
+| Unblock It       | <a href="https://dimayu2882.github.io/playables/unblockIt/index.html" target="_blank">Посмотреть</a> |
 > Ссылки ведут на live-демо в браузере.
