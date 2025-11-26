@@ -22,5 +22,6 @@
 | Milk Farm     | [Посмотреть](https://dimayu2882.github.io/playables/milk-farm/index.html) |
 | Unblock It    | [Посмотреть](https://dimayu2882.github.io/playables/unblockIt/index.html) |
 | Goblins Merge | [Посмотреть](https://goblins-merge.vercel.app/) |
+| Hustle Case   | [Посмотреть](https://dimayu2882.github.io/playables/hustle-case/index.html) |
 
 > Ссылки ведут на live-демо в браузере.
