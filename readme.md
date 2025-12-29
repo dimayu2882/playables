@@ -18,13 +18,14 @@
 
 ## 🎮 Демо-плейаблы
 
-| Название      | Ссылка                                                                       |
-|---------------|------------------------------------------------------------------------------|
-| Milk Farm     | [Посмотреть](https://dimayu2882.github.io/playables/milk-farm/index.html)    |
-| Unblock It    | [Посмотреть](https://dimayu2882.github.io/playables/unblockIt/index.html)    |
-| Goblins Merge | [Посмотреть](https://goblins-merge.vercel.app/)                              |
-| Mahjong 3D    | [Посмотреть](https://dimayu2882.github.io/playables/mahjong3d/index.html)    |
-| Hustle Case   | [Посмотреть](https://dimayu2882.github.io/playables/hustle-case/index.html)  |
-| Hidden Hotel  | [Посмотреть](https://dimayu2882.github.io/playables/hidden-hotel/index.html) |
+| Название             | Ссылка                                                                       |
+|----------------------|------------------------------------------------------------------------------|
+| Milk Farm            | [Посмотреть](https://dimayu2882.github.io/playables/milk-farm/index.html)    |
+| Unblock It           | [Посмотреть](https://dimayu2882.github.io/playables/unblockIt/index.html)    |
+| Goblins Merge        | [Посмотреть](https://goblins-merge.vercel.app/)                              |
+| Mahjong 3D           | [Посмотреть](https://dimayu2882.github.io/playables/mahjong3d/index.html)    |
+| Hustle Case          | [Посмотреть](https://dimayu2882.github.io/playables/hustle-case/index.html)  |
+| Hidden Hotel         | [Посмотреть](https://dimayu2882.github.io/playables/hidden-hotel/index.html) |
+| Hungry Zebra Tapping | [Посмотреть](https://dimayu2882.github.io/playables/hungry-zebra-tapping/index.html) |
 
 > Ссылки ведут на live-демо в браузере.
