@@ -20,9 +20,9 @@ This collection of interactive playables, developed with PixiJS and designed to 
 
 | Name                 | Links                                                                                |
 |----------------------|--------------------------------------------------------------------------------------|
-| Mahjong 3D           | [Посмотреть](https://dimayu2882.github.io/playables/mahjong3d/index.html)            |
-| Hustle Case          | [Посмотреть](https://dimayu2882.github.io/playables/hustle-case/index.html)          |
-| Hidden Hotel         | [Посмотреть](https://dimayu2882.github.io/playables/hidden-hotel/index.html)         |
-| Hungry Zebra Tapping | [Посмотреть](https://dimayu2882.github.io/playables/hungry-zebra-tapping/index.html) |
+| Mahjong 3D           | [View Demo](https://dimayu2882.github.io/playables/mahjong3d/index.html)            |
+| Hustle Case          | [View Demo](https://dimayu2882.github.io/playables/hustle-case/index.html)          |
+| Hidden Hotel         | [View Demo](https://dimayu2882.github.io/playables/hidden-hotel/index.html)         |
+| Hungry Zebra Tapping | [View Demo](https://dimayu2882.github.io/playables/hungry-zebra-tapping/index.html) |
 
 >The links lead to a live demo in the browser.
