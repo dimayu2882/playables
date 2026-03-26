@@ -16,7 +16,7 @@ This collection of interactive playables, developed with PixiJS and designed to 
 ---
 
 
-## 🎮Demo playables
+## 🎮 Demo playables
 
 | Name                 | Links                                                                                                |
 |----------------------|------------------------------------------------------------------------------------------------------|
