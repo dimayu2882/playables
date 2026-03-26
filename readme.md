@@ -18,8 +18,8 @@ This collection of interactive playables, developed with PixiJS and designed to 
 
 ## 🎮Demo playables
 
-| Name                 | Links                                                                                |
-|----------------------|--------------------------------------------------------------------------------------|
+| Name                 | Links                                                                               |
+|----------------------|-------------------------------------------------------------------------------------|
 | Mahjong 3D           | [View Demo](https://dimayu2882.github.io/playables/mahjong3d/index.html)            |
 | Hustle Case          | [View Demo](https://dimayu2882.github.io/playables/hustle-case/index.html)          |
 | Hidden Hotel         | [View Demo](https://dimayu2882.github.io/playables/hidden-hotel/index.html)         |
