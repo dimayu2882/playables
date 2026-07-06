@@ -14,9 +14,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&&display=swap" rel="stylesheet">
 	
 	
-	
-  <script type="module" crossorigin src="./js/main.js"></script>
-  <link rel="stylesheet" href="./css/main.css">
+	<script type="module" crossorigin src="./js/main.js"></script>
+	<link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -26,48 +25,48 @@
 			<h1 class="title">Playables Collection</h1>
 		</div>
 		
-		<h3>Welcome to the collection of interactive playables built with PixiJS! This collection of interactive
-			playables, developed with PixiJS and designed to meet ad platform limitations, is optimized for lightweight
-			(5MB).</h3>
+		<h3>Welcome to my selected collection of interactive playables built with PixiJS. These projects were developed with
+			ad platform limitations in mind and optimized to stay lightweight, around 5MB. Many other projects I have
+			contributed to are under NDA and cannot be disclosed publicly.</h3>
 		
 		<div class="playables">
-			<a href="https://dimayu2882.github.io/playables/mahjong3d/index.html"
+			<a href="./brilliantSort/index.html"
 			   class="playables__item">
 				<div class="playables__item__container">
-					<img src="./img/playable-1.png" alt="Playable 1">
+					<img src="./img/playable-7.jpg" alt="Playable 7">
 					<div class="play">
 						<img src="./img/play.svg" alt="play" width="24" height="24">
 					</div>
 				</div>
-				<h4 class="playables__item__title">Mahjong 3D</h4>
+				<h4 class="playables__item__title">Brilliant Sort</h4>
 			</a>
 			
-			<a href="https://dimayu2882.github.io/playables/hustle-case/index.html"
+			<a href="./wim-grid/index.html"
 			   class="playables__item">
 				<div class="playables__item__container">
-					<img src="./img/playable-2.png" alt="Playable 2">
+					<img src="./img/playable-6.jpg" alt="Playable 6">
 					<div class="play">
 						<img src="./img/play.svg" alt="play" width="24" height="24">
 					</div>
 				</div>
-				<h4 class="playables__item__title">Hustle Case</h4>
+				<h4 class="playables__item__title">Molehill Empire</h4>
 			</a>
 			
-			<a href="https://dimayu2882.github.io/playables/hidden-hotel/index.html"
+			<a href="./colorCubeMatch/index.html"
 			   class="playables__item">
 				<div class="playables__item__container">
-					<img src="./img/playable-3.png" alt="Playable 3">
+					<img src="./img/playable-8.jpg" alt="Playable 8">
 					<div class="play">
 						<img src="./img/play.svg" alt="play" width="24" height="24">
 					</div>
 				</div>
-				<h4 class="playables__item__title">Hidden Hotel</h4>
+				<h4 class="playables__item__title">Color Cube Match</h4>
 			</a>
 			
-			<a href="https://dimayu2882.github.io/playables/hungry-zebra-tapping/index.html"
+			<a href="./hungry-zebra-tapping/index.html"
 			   class="playables__item">
 				<div class="playables__item__container">
-					<img src="./img/playable-4.png" alt="Playable 4">
+					<img src="./img/playable-4.jpg" alt="Playable 4">
 					<div class="play">
 						<img src="./img/play.svg" alt="play" width="24" height="24">
 					</div>
@@ -75,21 +74,43 @@
 				<h4 class="playables__item__title">Hungry Zebra</h4>
 			</a>
 			
-			<a href="https://dimayu2882.github.io/playables/milk-farm/index.html"
+			<a href="./mahjong3d/index.html"
 			   class="playables__item">
 				<div class="playables__item__container">
-					<img src="./img/playable-5.png" alt="Playable 5">
+					<img src="./img/playable-1.jpg" alt="Playable 1">
 					<div class="play">
 						<img src="./img/play.svg" alt="play" width="24" height="24">
 					</div>
 				</div>
-				<h4 class="playables__item__title">Milk Farm</h4>
+				<h4 class="playables__item__title">Mahjong 3D</h4>
 			</a>
 			
-			<a href="https://dimayu2882.github.io/playables/wim-grid/index.html"
+			<a href="./hustle-case/index.html"
 			   class="playables__item">
 				<div class="playables__item__container">
-					<img src="./img/playable-6.png" alt="Playable 6">
+					<img src="./img/playable-2.jpg" alt="Playable 2">
+					<div class="play">
+						<img src="./img/play.svg" alt="play" width="24" height="24">
+					</div>
+				</div>
+				<h4 class="playables__item__title">Hustle Case</h4>
+			</a>
+			
+			<a href="./hidden-hotel/index.html"
+			   class="playables__item">
+				<div class="playables__item__container">
+					<img src="./img/playable-3.jpg" alt="Playable 3">
+					<div class="play">
+						<img src="./img/play.svg" alt="play" width="24" height="24">
+					</div>
+				</div>
+				<h4 class="playables__item__title">Hidden Hotel</h4>
+			</a>
+			
+			<a href="./milk-farm/index.html"
+			   class="playables__item">
+				<div class="playables__item__container">
+					<img src="./img/playable-5.jpg" alt="Playable 5">
 					<div class="play">
 						<img src="./img/play.svg" alt="play" width="24" height="24">
 					</div>
@@ -99,6 +120,14 @@
 		</div>
 	</div>
 </main>
+
+<div class="playable-modal" aria-hidden="true">
+	<div class="playable-modal__overlay" data-playable-close></div>
+	<div class="playable-modal__content" role="dialog" aria-modal="true" aria-label="Playable preview">
+		<button class="playable-modal__close" type="button" aria-label="Close" data-playable-close>&times;</button>
+		<iframe class="playable-modal__iframe" title="Playable preview" allowfullscreen></iframe>
+	</div>
+</div>
 
 <footer class="footer">
 	<div class="wrapper">
@@ -113,6 +142,9 @@
 			</a>
 			<a href="mailto:dimayu82@gmail.com" class="contacts__item" target="_blank">
 				e-mail
+			</a>
+			<a href="Damir%20playable%20developer%20en.pdf" class="contacts__item" download="">
+				resume
 			</a>
 		</div>
 	</div>
