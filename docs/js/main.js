@@ -1,1 +1,58 @@
-(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))s(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const o of t.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&s(o)}).observe(document,{childList:!0,subtree:!0});function i(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function s(e){if(e.ep)return;e.ep=!0;const t=i(e);fetch(e.href,t)}})();
+document.addEventListener('DOMContentLoaded', function() {
+	const playableModal = document.querySelector('.playable-modal');
+	const playableIframe = document.querySelector('.playable-modal__iframe');
+	let playableCloseTimeout = null;
+	
+	function getScrollbarWidth() {
+		return window.innerWidth - document.documentElement.clientWidth;
+	}
+	
+	function openPlayableModal(url) {
+		if (!playableModal || !playableIframe) return;
+		
+		clearTimeout(playableCloseTimeout);
+		playableIframe.src = url;
+		playableModal.classList.remove('playable-modal--closing');
+		playableModal.classList.add('playable-modal--open');
+		playableModal.setAttribute('aria-hidden', 'false');
+		
+		const scrollbarWidth = getScrollbarWidth();
+		document.body.style.paddingRight = scrollbarWidth ? `${scrollbarWidth}px` : '';
+		document.body.classList.add('modal-open');
+	}
+	
+	function closePlayableModal() {
+		if (!playableModal || !playableIframe || !playableModal.classList.contains('playable-modal--open')) return;
+		
+		clearTimeout(playableCloseTimeout);
+		playableModal.classList.add('playable-modal--closing');
+		playableModal.setAttribute('aria-hidden', 'true');
+		
+		playableCloseTimeout = setTimeout(function() {
+			playableModal.classList.remove('playable-modal--open', 'playable-modal--closing');
+			playableIframe.removeAttribute('src');
+			document.body.classList.remove('modal-open');
+			document.body.style.paddingRight = '';
+		}, 250);
+	}
+	
+	document.addEventListener('click', function(event) {
+		const playable = event.target.closest('.playables__item');
+		
+		if (playable && playableModal && playableIframe) {
+			event.preventDefault();
+			openPlayableModal(playable.href);
+			return;
+		}
+		
+		if (event.target.closest('[data-playable-close]')) {
+			closePlayableModal();
+		}
+	});
+	
+	document.addEventListener('keydown', function(event) {
+		if (event.key === 'Escape') {
+			closePlayableModal();
+		}
+	});
+});
